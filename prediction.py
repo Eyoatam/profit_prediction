@@ -206,3 +206,12 @@ plt.title("Profits vs. Population per city")
 plt.ylabel('Profit in $10,000')
 # Set the x-axis label
 plt.xlabel('Population of City in 10,000s')
+
+# make predictions
+prediction1 = 3.5 * w + b
+print('For population = 35,000, we predict a profit of $%.2f' %
+      (prediction1*10000))
+
+prediction2 = 7.0 * w + b
+print('For population = 70,000, we predict a profit of $%.2f' %
+      (prediction2*10000))
